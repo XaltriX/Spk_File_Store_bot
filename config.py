@@ -50,13 +50,25 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/HTODLINKZ/2")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Linkz_Wallah \n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/NeonGhost>NeonGhost</a></blockquote></b>"
+HELP_TXT = (
+    "<b><blockquote>"
+    "📦 𝙁𝙞𝙡𝙚 → 𝙇𝙞𝙣𝙠 𝘽𝙤𝙩\n"
+    "🤝 𝙒𝙤𝙧𝙠𝙨 𝙁𝙤𝙧 <b>@Linkz_Wallah</b>\n\n"
+    "❏ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙\n"
+    "├ /start ➜ 𝙎𝙩𝙖𝙧𝙩 𝘽𝙤𝙩\n\n"
+    "📌 𝙐𝙨𝙚:\n"
+    "➤ 𝘾𝙡𝙞𝙘𝙠 𝙇𝙞𝙣𝙠 → 𝙎𝙩𝙖𝙧𝙩 𝘽𝙤𝙩\n"
+    "➤ 𝙅𝙤𝙞𝙣 𝘾𝙝𝙖𝙣𝙣𝙚𝙡𝙨 → 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣 ⚡\n\n"
+    "👨‍💻 𝘽𝙮 <a href='https://t.me/NeonGhost'><b>NeonGhost</b></a>"
+    "</blockquote></b>"
+)
+
 ABOUT_TXT = """
 <b><blockquote>
 ✨ <b>ᴄʀᴇᴀᴛᴏʀ:</b> <a href='https://t.me/NeonGhost'>NeonGhost</a>
 🌐 <b>ꜰᴏᴜɴᴅᴇʀ ᴏꜰ:</b> <a href='https://t.me/NeonGhost_Network'>NeonGhost Network</a>
 
-🎥 <b>Free Videos ᴄʜᴀɴɴᴇʟ:</b> <a href=' https://t.me/+luH2OAYzZ1Q1N2E0'>Lust Diaries 2.0</a>
+🎥 <b>Free Videos ᴄʜᴀɴɴᴇʟ:</b> <a href='https://t.me/+l-xqPJba7KMyOTg1'>Lust Diaries 2.0</a>
 🍿 <b>Movie Search ɢʀᴏᴜᴘ:</b> <a href='https://t.me/+DU6yY8lZ45dlOTc0'>NEW MOVIE REQUEST GROUP</a>
 📱 <b>Paid Apps & MOD APK:</b> <a href=' https://t.me/+w3r7mmOPmK01ZmU1'>Paid Apps & MOD APK</a>
 
@@ -65,8 +77,28 @@ ABOUT_TXT = """
 """
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention}\n\n<b><blockquote>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b></blockquote>")
+START_MSG = os.environ.get(
+    "START_MESSAGE",
+    "<b>ʜᴇʟʟᴏ {mention} ✨\n\n"
+    "<blockquote>"
+    "📦 ɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ.\n"
+    "🔐 ɪ ꜱᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ɪɴ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴄʜᴀɴɴᴇʟꜱ\n"
+    "🔗 ᴀɴᴅ ᴀʟʟᴏᴡ ᴀᴄᴄᴇꜱꜱ ᴠɪᴀ ꜱᴇᴄᴜʀᴇ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ.\n\n"
+    "🤝 ᴡᴏʀᴋꜱ ꜰᴏʀ <b>@Linkz_Wallah</b>\n"
+    "⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ <b>@Neonghost_Network</b>"
+    "</blockquote></b>"
+)
+
+FORCE_MSG = os.environ.get(
+    "FORCE_SUB_MESSAGE",
+    "ʜᴇʟʟᴏ {mention} ✨\n\n"
+    "<b><blockquote>"
+    "🔔 ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ꜰɪʀꜱᴛ.\n"
+    "📥 ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ, ᴄʟɪᴄᴋ ᴛʜᴇ <u>ʀᴇʟᴏᴀᴅ</u> ʙᴜᴛᴛᴏɴ\n"
+    "⚡ ᴛᴏ ᴜɴʟᴏᴄᴋ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ."
+    "</blockquote></b>"
+)
+
 
 CMD_TXT = """<blockquote><b>›› ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ:</b></blockquote>
 
