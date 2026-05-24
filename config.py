@@ -42,10 +42,10 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 #--------------------------------------------
 # Enable or Disable Verify Mode
 VERIFY_MODE = os.environ.get("VERIFY_MODE", "True").lower() == "true"
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vplink.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "5fc87479ac0c4c2d2ed0510089fe5493073800d6")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "8a59f7197cfbac8f2fde46f209a9e8fc6504cb0b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/HTODLINKZ/2")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/HTODLINKZ/13")
 
 #--------------------------------------------
 
